@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f7f7;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    height: 50px;
+    position: relative;
+    border-radius: 50px;
+    background: #f7f7f7;
+    border: 3px solid blue;
+}
+
+.bgc {
+    height: 40px;
+    width: 120px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 50px;
+    background-color: blue;
+    transition: all 0.3s;
+}
+
+ul {
+    height: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #252525;
+}
+
+ul li {
+    z-index: 2;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+ul li:hover {
+    color: blue;
+}
+
+.active {
+    color: white;
+}
+
+.active:hover {
+    color: white;
+}
+
+.home {
+    width: 120px;
+    position: absolute;
+    left: 5px;
+}
+
+.about {
+    width: 104px;
+    position: absolute;
+    left: 107px;
+}
+
+.event {
+    width: 106px;
+    position: absolute;
+    left: 197px;
+}
+
+.event {
+    width: 106px;
+    position: absolute;
+    left: 197px;
+}
+
+.contact {
+    width: 127px;
+    position: absolute;
+    left: 286px;
+}
+
+.faq {
+    width: 103px;
+    position: absolute;
+    left: 392px;
+}
